@@ -156,22 +156,13 @@ export default function App() {
       {/* Header */}
       <header className="bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-sm sticky top-0 z-10">
         <div className="container mx-auto px-8 py-4 flex items-center justify-between">
-          <div className="text-teal-700 font-semibold">
-            《大模型Agent开发实战》体验课
-          </div>
+
           <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-2">
             <h1 className="text-2xl text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-cyan-600 font-semibold">
               DeepSeek OCR识别检测
             </h1>
-            <span className="text-xs text-gray-500">by 九天Hector</span>
           </div>
-          <Button
-            onClick={handleGetSourceCode}
-            className="bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-600 hover:to-cyan-600 text-white shadow-md transition-all hover:shadow-lg hover:scale-105 font-semibold cursor-pointer"
-          >
-            <Gift className="mr-2 h-4 w-4" />
-            领取项目源码
-          </Button>
+
         </div>
       </header>
 
