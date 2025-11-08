@@ -57,5 +57,6 @@
     server: {
       port: 80,
       open: true,
+        allowedHosts: ['*.x-gpu.com'],
     },
   });
