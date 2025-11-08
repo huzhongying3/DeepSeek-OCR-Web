@@ -1,0 +1,10 @@
+# Build artifacts
+spring-backend/target/
+
+# IDE files
+.idea/
+、
+
+
+# Frontend dependencies
+frontend/node_modules/
